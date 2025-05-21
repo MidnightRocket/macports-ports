@@ -4,7 +4,7 @@ PortSystem              1.0
 PortGroup               github 1.0
 PortGroup               java 1.0
 
-github.setup            plantuml plantuml 1.2024.3 v
+github.setup            plantuml plantuml 1.2025.2 v
 github.tarball_from     releases
 revision                0
 
@@ -21,9 +21,9 @@ homepage                https://plantuml.com/
 distfiles               ${name}-${version}.jar
 
 checksums               ${name}-${version}.jar \
-                        rmd160  7b65f4c059c269030547ef8dbf6dd27f8584c0fd \
-                        sha256  519a4a7284c6a0357c369e4bb0caf72c4bfbbde851b8c6d6bbdb7af3c01fc82f \
-                        size    11857108
+                        rmd160  9b90a813c8dca9205bec5dd649bd02b72e941bd3 \
+                        sha256  862c7d6d0d3bde3c819eac4dfc03cf549046bf1d49c04d18a779eb2d834b77c9 \
+                        size    21747694
 extract.only
 
 java.version            1.7+
